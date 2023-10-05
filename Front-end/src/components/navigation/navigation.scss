@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Raleway:wght@400;700&display=swap');
+
+@mixin flex_full() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+$pink: #FF6060;
+$grey: #F6F6F6;
+$mainFont: 'Montserrat';
+
+.navigation {
+
+    @include flex_full();
+    max-width: 1440px;
+    min-width: 350px;
+    margin: auto;
+    width: 90%;
+
+    ul {
+
+        display: flex;
+        justify-content: space-around;
+        width: 450px;
+        padding: 0%;
+        list-style: none;
+
+        .navlink {
+            
+            text-decoration: none;
+            width: 50%;
+            color: $pink;
+            font-family: $mainFont;
+            font-weight: 500;
+            font-size: 24px;
+            text-align: right;
+
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navigation {
+
+        div {
+            width: 50%;
+            text-align: left;
+        }
+
+        ul {
+
+            width: 50%;
+
+            .navlink {
+                font-size: 12px;
+            }
+        }
+    }
+}
