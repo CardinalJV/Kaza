@@ -12,6 +12,7 @@
   max-width: 1440px;
   min-width: 350px;
   margin: auto;
+  margin-top: 20px;
   width: 90%;
 }
 
@@ -19,16 +20,21 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 450px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  width: 300px;
   padding: 0%;
   list-style: none;
 }
 
 .navigation ul .navlink {
   text-decoration: none;
-  width: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: #FF6060;
   font-family: "Montserrat";
   font-weight: 500;
@@ -47,10 +53,10 @@
     text-align: left;
   }
   .navigation ul {
-    width: 50%;
+    width: 40%;
   }
   .navigation ul .navlink {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=navigation.css.map */

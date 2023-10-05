@@ -1,11 +1,13 @@
 import React from 'react';
-import Navigation from '../components/navigation/navigation.js';
+import Banner from '../components/banner/Banner.js';
+import Navigation from '../components/navigation/Navigation.js';
 
 const Home = () => {
     return (
 
         <div>
             <Navigation />
+            <Banner />
         </div>
     );
 };

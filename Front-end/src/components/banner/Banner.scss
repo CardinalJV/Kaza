@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Raleway:wght@400;700&display=swap');
+
+.banner {
+
+    max-width: 1440px;
+    min-width: 350px;
+    width: 90%;
+    height: 223px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+
+    img {
+
+        width: 100%;
+        border-radius: 25px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .overlay {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        background-color: rgba(#000000, 0.25);
+        border-radius: 25px;
+        font-size: 48px;
+        font-family: 'Montserrat';
+    }
+}
+
+@media (max-width: 768px) {
+
+    .banner {
+
+        height: 111px;
+
+        img {
+            border-radius: 10px;
+        }
+
+        .overlay {
+
+            font-size: 24px;
+            border-radius: 10px;
+        }
+    }
+}
