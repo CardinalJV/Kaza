@@ -1,5 +1,7 @@
 import React from 'react';
 import Banner from '../components/banner/Banner.js';
+import Gallery from '../components/gallery/Gallery.js';
+import Footer from '../components/footer/Footer.js';
 import Navigation from '../components/navigation/Navigation.js';
 
 const Home = () => {
@@ -8,6 +10,8 @@ const Home = () => {
         <div>
             <Navigation />
             <Banner />
+            <Gallery />
+            <Footer />
         </div>
     );
 };
