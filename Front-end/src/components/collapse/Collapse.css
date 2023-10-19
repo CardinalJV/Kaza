@@ -107,21 +107,16 @@
 
 @media (max-width: 768px) {
   .dropdown {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    width: 90%;
   }
-  .dropdown ul {
-    width: 100%;
-  }
-  .dropdown ul li .item-list h2 {
+  .dropdown #content-show h2 {
     font-size: 13px;
     font-weight: 400;
   }
-  .dropdown ul li .item-list span {
+  .dropdown #content-show span {
     font-size: 13px;
   }
-  .dropdown ul li #content p {
+  .dropdown #content-hidden p {
     font-size: 13px;
   }
 }
