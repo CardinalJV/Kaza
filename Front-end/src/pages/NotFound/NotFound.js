@@ -6,10 +6,16 @@ import './NotFound.css';
 
 const NotFound = () => {
     return (
-        <div className='not-found'>
-            <Navigation />
-            <Error404 />
-            <Footer />
+        <div className='not-found-page'>
+            <section className="header">
+                <Navigation />
+            </section>
+            <section className="main">
+                <Error404 />
+            </section>
+            <section className="footer">
+                <Footer />
+            </section>
         </div>
     );
 };
