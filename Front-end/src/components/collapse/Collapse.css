@@ -3,11 +3,11 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: auto;
-  width: 65%;
-  min-width: 350px;
+  max-width: 1080px;
+  min-width: 100px;
   min-height: 40px;
-  margin-top: 30px;
   border-radius: 10px;
+  width: 100%;
 }
 
 .dropdown #content-show {
@@ -97,6 +97,7 @@
   -webkit-transition: max-height 0.5s ease-in;
   transition: max-height 0.5s ease-in;
   color: #FF6060;
+  margin: 0px;
 }
 
 .dropdown #content-hidden p {
@@ -106,9 +107,6 @@
 }
 
 @media (max-width: 768px) {
-  .dropdown {
-    width: 90%;
-  }
   .dropdown #content-show h2 {
     font-size: 13px;
     font-weight: 400;

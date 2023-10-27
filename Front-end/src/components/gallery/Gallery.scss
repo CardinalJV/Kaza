@@ -11,7 +11,6 @@ $mainFont: 'Montserrat';
     height: fit-content;
     background-color: #F6F6F6;
     margin: auto;
-    margin-top: 30px;
     border-radius: 25px;
     padding: 50px;
     box-sizing: border-box;
@@ -68,7 +67,7 @@ $mainFont: 'Montserrat';
 
         section {
             flex-direction: column;
-            gap: 40px;
+            gap: 20px;
 
             article {
                 width: 100%;

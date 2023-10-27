@@ -3,11 +3,11 @@
 .dropdown {
     box-sizing: border-box;
     margin: auto;
-    width: 65%;
-    min-width: 350px;
+    max-width: 1080px;
+    min-width: 100px;
     min-height: 40px;
-    margin-top: 30px;
     border-radius: 10px;
+    width: 100%;
 
     #content-show {
         width: 100%;
@@ -70,6 +70,7 @@
             max-height: 200px;
             transition: max-height 0.5s ease-in;
             color: #FF6060;
+            margin: 0px;
         }
 
         p {
@@ -81,31 +82,24 @@
 }
 
 @media (max-width: 768px) {
-
     .dropdown {
-        width: 90%;
+        #content-show {
 
-  
+            h2 {
+                font-size: 13px;
+                font-weight: 400;
+            }
 
-    
-
-                #content-show {
-
-                    h2 {
-                        font-size: 13px;
-                        font-weight: 400;
-                    }
-
-                    span {
-                        font-size: 13px;
-                    }
-                }
-
-                #content-hidden {
-
-                    p {
-                        font-size: 13px;
-                    }
-                }
+            span {
+                font-size: 13px;
             }
         }
+
+        #content-hidden {
+
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+}

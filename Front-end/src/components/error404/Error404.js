@@ -1,15 +1,18 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Error404.css';
 
 const Error404 = () => {
+    const navigate = useNavigate();
+    const handleNavigate = () => {
+        navigate('/');
+    }
+
     return (
         <div className='error'>
             <h1>404</h1>
             <p>Oups! La page que vous demandez n'existe pas.</p>
-            <NavLink to="/" className="navlink">
-                Retourner sur la page d'accueil
-            </NavLink>
+            <span onClick={handleNavigate} className='to-home'>Retourner sur la page d'accueil</span>
         </div>
     );
 };

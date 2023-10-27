@@ -12,7 +12,8 @@ const Collapse = (props) => {
     };
 
     return (
-        <div className='dropdown'>
+        
+            <div className='dropdown' >
                 <div id="content-show">
                 <h2>
                     {title}
@@ -28,6 +29,7 @@ const Collapse = (props) => {
                 </p>
             </div>
         </div>
+        
     );
 };
 

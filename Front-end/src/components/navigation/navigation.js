@@ -4,7 +4,9 @@ import './Navigation.css';
 import logoDesktop from '../../images/logo-desktop.png';
 import logoMobile from '../../images/logo-mobile.png';
 
-const Navigation = () => {
+const Navigation = (props) => {
+  const {onClick} = props;
+
   return (
     <div className="navigation">
       <div>
@@ -15,7 +17,7 @@ const Navigation = () => {
       </div>
       <ul>
         <NavLink to="/" className="navlink" >
-          <li>Accueil</li>
+          <li onClick={onClick}>Accueil</li>
         </NavLink>
         <NavLink to="/about" className="navlink">
           <li>A propos</li>

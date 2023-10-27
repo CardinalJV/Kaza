@@ -5,7 +5,6 @@
   max-width: 1440px;
   min-width: 350px;
   margin: auto;
-  margin-top: 30px;
   text-align: center;
 }
 
@@ -26,7 +25,7 @@
   font-weight: 500;
 }
 
-.error .navlink {
+.error span {
   width: 100%;
   text-decoration: none;
   color: #FF6060;
@@ -34,7 +33,7 @@
   font-size: 18px;
 }
 
-.error .navlink:hover {
+.error span:hover {
   cursor: pointer;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;

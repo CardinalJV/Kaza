@@ -8,7 +8,6 @@
   height: fit-content;
   background-color: #F6F6F6;
   margin: auto;
-  margin-top: 30px;
   border-radius: 25px;
   padding: 50px;
   -webkit-box-sizing: border-box;
@@ -83,7 +82,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 40px;
+    gap: 20px;
   }
   .gallery section article {
     width: 100%;
