@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import Navigation from '../../components/navigation/Navigation.js';
-import Banner from './../../components/banner/Banner.js';
+import Banner from '../../components/banner/Banner.js';
 import Collapse from '../../components/collapse/Collapse.js';
 import Footer from '../../components/footer/Footer.js';
 
