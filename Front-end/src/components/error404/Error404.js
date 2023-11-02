@@ -4,9 +4,11 @@ import './Error404.css';
 
 const Error404 = () => {
     const navigate = useNavigate();
+
+    // Redirection vers la page d'accueil
     const handleNavigate = () => {
         navigate('/');
-    }
+    };
 
     return (
         <div className='error'>

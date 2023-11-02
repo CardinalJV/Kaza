@@ -7,6 +7,7 @@ const Collapse = (props) => {
     const { title, text } = props;
     const [isTextVisible, setIsTextVisible] = useState(false);
 
+    // Gère l'affichage du contenu caché des collapse 
     const toggleText = () => {
         setIsTextVisible(!isTextVisible);
     };

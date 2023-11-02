@@ -7,6 +7,7 @@ const Banner = () => {
     const [img, setImg] = useState(<img src={bannerDesktop} alt="Falaises rocheuses" />);
     const [text, setText] = useState('Chez vous, partout et ailleurs');
 
+    // Modification de l'image de la bannière en fonction de l'URL
     const switchImg = (newImg) => {
         setImg(newImg)
     };
