@@ -98,9 +98,10 @@
   transition: max-height 0.5s ease-in;
   color: #FF6060;
   margin: 0px;
+  overflow: scroll;
 }
 
-.dropdown #content-hidden p {
+.dropdown p {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
