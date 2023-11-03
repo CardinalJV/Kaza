@@ -1,0 +1,15 @@
+.overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 99vh;
+    gap: 30px;
+
+    .body {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+         justify-content: flex-start;
+         gap: 30px;
+    }
+}

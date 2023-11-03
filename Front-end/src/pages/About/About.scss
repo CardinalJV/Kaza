@@ -1,0 +1,35 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 99vh;
+    gap: 20px;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main {
+        gap: 30px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-page {
+        .header {
+            gap: 20px;
+        }
+
+        .main {
+            gap: 20px;
+            width: 90%;
+            margin: auto;
+        }
+    }
+}
+
