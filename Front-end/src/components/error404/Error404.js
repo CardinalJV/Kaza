@@ -7,7 +7,7 @@ const Error404 = () => {
 
     // Redirection vers la page d'accueil
     const handleNavigate = () => {
-        navigate('/');
+        navigate('/kaza');
     };
 
     return (

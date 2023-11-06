@@ -16,7 +16,7 @@ const Navigation = (props) => {
           alt="Logo de Kaza" />
       </div>
       <ul>
-        <NavLink to="/" className="navlink" >
+        <NavLink to="/kaza" className="navlink" >
           <li onClick={onClick}>Accueil</li>
         </NavLink>
         <NavLink to="/about" className="navlink">
