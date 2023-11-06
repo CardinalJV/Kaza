@@ -14,13 +14,13 @@ const Collapse = (props) => {
 
     return (
         
-            <div className='dropdown' >
+            <div className='dropdown' onClick={toggleText}>
                 <div id="content-show">
                 <h2>
                     {title}
                 </h2>
                 <span>
-                    <FontAwesomeIcon icon={faChevronDown} className={isTextVisible ? 'to-top' : 'to-bottom'} onClick={toggleText} />
+                    <FontAwesomeIcon icon={faChevronDown} className={isTextVisible ? 'to-top' : 'to-bottom'}  />
                 </span>
                 </div>
 

@@ -4,10 +4,11 @@
           box-sizing: border-box;
   margin: auto;
   max-width: 1080px;
-  min-width: 100px;
+  min-width: 350px;
   min-height: 40px;
   border-radius: 10px;
   width: 100%;
+  cursor: pointer;
 }
 
 .dropdown #content-show {
@@ -50,7 +51,6 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  cursor: pointer;
   color: white;
   font-size: 32px;
 }
