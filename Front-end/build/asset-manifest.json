@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Kaza/static/css/main.4f2f912e.css",
-    "main.js": "/Kaza/static/js/main.f8f42fce.js",
+    "main.css": "/Kaza/static/css/main.ceba65f4.css",
+    "main.js": "/Kaza/static/js/main.e2898323.js",
     "static/js/787.115df530.chunk.js": "/Kaza/static/js/787.115df530.chunk.js",
     "static/media/banner-bis.png": "/Kaza/static/media/banner-bis.dc7a08e1faa2e14de0bd.png",
     "static/media/banner-desktop.png": "/Kaza/static/media/banner-desktop.1168be13650bb18b456e.png",
     "index.html": "/Kaza/index.html",
-    "main.4f2f912e.css.map": "/Kaza/static/css/main.4f2f912e.css.map",
-    "main.f8f42fce.js.map": "/Kaza/static/js/main.f8f42fce.js.map",
+    "main.ceba65f4.css.map": "/Kaza/static/css/main.ceba65f4.css.map",
+    "main.e2898323.js.map": "/Kaza/static/js/main.e2898323.js.map",
     "787.115df530.chunk.js.map": "/Kaza/static/js/787.115df530.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f2f912e.css",
-    "static/js/main.f8f42fce.js"
+    "static/css/main.ceba65f4.css",
+    "static/js/main.e2898323.js"
   ]
 }

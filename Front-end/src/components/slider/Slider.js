@@ -68,7 +68,7 @@ const Slider = ({ id }) => {
 
     // Fonction de parcours de l'image suivante
     const prevImg = () => {
-        if (indexPictures < 0) {
+        if (indexPictures < 1) {
             setIndexPictures(logement.pictures.length - 1)
         } else {
             setIndexPictures(indexPictures - 1)
@@ -80,6 +80,7 @@ const Slider = ({ id }) => {
         if (logement.pictures.length - 1 > 1) {
             return <span className='arrow'>
                 <FontAwesomeIcon icon={faChevronLeft} onClick={prevImg} className='to-left' />
+                <p className='count'>{indexPictures + 1}/{logement.pictures.length}</p>
                 <FontAwesomeIcon icon={faChevronRight} onClick={nextImg} className='to-right' />
             </span>
         }
