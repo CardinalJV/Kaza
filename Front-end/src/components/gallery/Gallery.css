@@ -16,7 +16,6 @@
 
 .gallery section {
   width: 100%;
-  max-width: 1038px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
